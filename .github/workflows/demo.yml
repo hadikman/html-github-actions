@@ -28,4 +28,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           git pull origin master
-          ls /actions-runner/
+          cp -f _work/html-github-actions/html-github-actions/*.* /etc/site/github-actions/html-github-actions/
