@@ -28,4 +28,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           git pull origin master
-          ls /actions_runner/
+          ls /actions-runner/
